@@ -1,6 +1,6 @@
 
 void setup() {
-  new LEDLampFactory(this).initDoubleLEDLamp();
+  new LEDLampFactory(this).initStandardLEDLamp();
   size(1020, 160, P2D); // sizex = x * scale, sizey = y * scale 
 }
 
